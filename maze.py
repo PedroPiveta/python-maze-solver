@@ -167,4 +167,4 @@ class Maze:
 
     def _animate(self):
         self._win.redraw()
-        time.sleep(0.05)
+        time.sleep(0.025)
