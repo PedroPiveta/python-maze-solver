@@ -9,6 +9,8 @@ def main():
     maze._break_walls_r(0,0)
     maze._reset_cells_visited()
 
+    maze.solve()
+
     # cell1 = Cell(win, 50, 50, 150, 150)
     # cell1.draw()  # Draw cell1
     # 
